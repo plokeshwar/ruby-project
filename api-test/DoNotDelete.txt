@@ -1,3 +1,4 @@
 ##Sample Rest APIs
 
 https://jsonplaceholder.typicode.com/
+http://dummy.restapiexample.com/
