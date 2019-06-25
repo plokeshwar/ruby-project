@@ -1,0 +1,3 @@
+##Sample Rest APIs
+
+https://jsonplaceholder.typicode.com/
