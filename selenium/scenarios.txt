@@ -1,0 +1,11 @@
+Feature : This feature validates scenarios related to Adding Customer to Bank
+
+
+Scenario:
+As a valid Bank Manger user,
+I should be able to Add a Customer to Bank,
+So that I the newly added customer in the customer list
+
+Given that the user has logged in as a bank manger
+When the user adds a new customer
+Then the customer should be available in the customer tab
