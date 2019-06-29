@@ -4,5 +4,5 @@ Verify bank manager can successfully open an account for existing customers in X
 
 Verify bank manager can successfully delete existing customer account details from XYZ bank.
 
-Verfiy a customer can deposit/withdraw amount in XYZ bank and can see all the transactions history
+Verfiy a customer can deposit/withdraw amount in XYZ bank and can see all the transactions history..
 .
