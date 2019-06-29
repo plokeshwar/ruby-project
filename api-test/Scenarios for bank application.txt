@@ -1,6 +1,6 @@
 Verify bank manager can successfully add a Customer to XYZ bank.
 
-Verify bank manager can successfully open an account for existing customers in XYZ back .
+Verify bank manager can successfully open an account for existing customers in XYZ back ..
 
 Verify bank manager can successfully delete existing customer account details from XYZ bank..
 
