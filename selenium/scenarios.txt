@@ -9,3 +9,43 @@ So that I the newly added customer in the customer list
 Given that the user has logged in as a bank manger
 When the user adds a new customer
 Then the customer should be available in the customer tab
+
+
+Feature : This feature validates scenarios related to Adding and processing a New Account to the Customer
+
+
+Scenario:
+As a valid Bank Manger user,
+I should be able to Add a Customer to Bank,
+So that I can Open an account to the newly added customer.
+
+Given that the user has logged in as a bank manger
+When the user adds a new customer
+Then a new account can be processed to the newly added customer.
+
+
+Feature : This feature validates scenarios related to Deleting a Customer from Bank .
+
+
+Scenario:
+As a valid Bank Manger user,
+I should be able to delete a Customer from Bank,
+
+
+Given that the user has logged in as a bank manger
+When the user click on customers tab
+Then the user is able to delete customer details.
+
+
+
+Feature : This feature validates scenarios related to Customer Depositing/Withdrawing Amount from Bank
+
+
+Scenario:
+As a valid Customer user
+I should be able to Deposit money in bank,
+So that I see all the activities in Transactions tab
+
+Given that the user has logged in as a customer
+When the user deposits money 
+Then all the customer activities are reflected in Transactions Tab.
