@@ -8,14 +8,7 @@
 
 ### Run tests
 
-| Profile | Command | Hostname | Browser |
-| ------------- | ------------- | ------------- | ------------- |
-| Default | `$ cucumber` | http://partners.alpha.redmart.com | Chrome
-| Dev | `$ cucumber -p dev` | http://localhost:9090 | Chrome
-| BrowserStack | `$ cucumber -p browserstack` | http://m.alpha.redmart.com | Edge 16
-| CI | `$ cucumber -p ci` | http://partners.alpha.redmart.com | Chrome
-
-### Verify changes
+cucumber -t @one
 
 `$ rubocop`
 
