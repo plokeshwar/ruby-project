@@ -1,0 +1,9 @@
+# Chrome
+chrome:
+  browser: 'Chrome'
+  chromeOptions: 
+    args:
+      - '--window-size=1365,1000'
+      - '--incognito'
+      - '--w3c=false'
+      #- '--headless'

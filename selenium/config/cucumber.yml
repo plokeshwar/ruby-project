@@ -1,0 +1,4 @@
+default: -q
+dev: -q PROFILE="dev"
+ci: -q PROFILE="ci"
+browserstack: -q PROFILE="browserstack"
