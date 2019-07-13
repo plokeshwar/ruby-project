@@ -4,6 +4,7 @@ require_relative '../../features/pages/login_page'
 require_relative '../../features/pages/Manager_page'
 
 Given 'I click on manager button' do
+  $driver.get(Hostname.get)
   login_page=LoginPage.new
   @manager_page=login_page.bankmanager_login_button
 end
