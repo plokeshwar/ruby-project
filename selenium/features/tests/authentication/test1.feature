@@ -6,4 +6,4 @@ Feature: Manager Login feature
     Given I click on manager button
     When I click on customer button
     when I add customer with valid details
-    Then I verify the customer is added
+    Then I verify the customer is successfully added 
