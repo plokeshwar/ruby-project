@@ -2,6 +2,8 @@ require 'selenium-cucumber'
 require_relative '../lib/hostname'
 require_relative '../../features/pages/login_page'
 require_relative '../../features/pages/Manager_page'
+require "rubygems"
+require "Selenium-webdriver"
 
 Given 'I click on manager button' do
   $driver.get(Hostname.get)
@@ -17,6 +19,10 @@ When 'I add customer with valid details' do
   @customer_page.add_customer_first_name
   @customer_page.add_customer_last_name
   @customer_page.add_customer_postcode
+end
+
+When 'I add click on submit button' do
+  @customer_page.click_on_submit_for_addcustomer
 end
 
 Then 'I verify the customer is added' do

@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'selenium-cucumber'
+require "Selenium-webdriver"
 
 scenario_times = {}
 
