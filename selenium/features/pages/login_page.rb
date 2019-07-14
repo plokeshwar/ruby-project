@@ -1,5 +1,5 @@
 require_relative '../../features/pages/home_page'
-require 'common_methods'
+require_relative '../pages/common_methods'
 
 class LoginPage
 
@@ -23,20 +23,16 @@ class LoginPage
     switch_handle_secondary
   end
 
-
-
-  private
+  def bankmanager_login_button
+    el = $driver.find_element :xpath => "(//button[@class='btn btn-primary btn-lg'])[2]"
+    el.click
+    ManagerPage.new
+  end
 
   def customer_login_button
     $driver.find_element :xpath => "(//button[@class='btn btn-primary btn-lg'])[1]"
   end
-
-
-    def bankmanager_login_button
-      $driver.find_element :xpath => "(//button[@class='btn btn-primary btn-lg'])[2]".click
-      ManagerPage.new
-    end
-
+    
 
   def user_id
     $driver.find_element :css => 'input'

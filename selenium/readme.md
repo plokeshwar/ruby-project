@@ -8,7 +8,7 @@
 
 ### Run tests
 
-cucumber -t @one
+bundle exec cucumber -t @one
 
 `$ rubocop`
 
