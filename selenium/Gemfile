@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'ffi'
 gem 'eventmachine'
 gem 'nokogiri'
 gem 'rubocop', '= 0.51.0'

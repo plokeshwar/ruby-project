@@ -1,4 +1,5 @@
 require 'rubygems'
+require 'em/pure_ruby'
 require 'selenium-cucumber'
 
 scenario_times = {}

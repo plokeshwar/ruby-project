@@ -1,4 +1,4 @@
-module Hostname
+ module Hostname
   def self.get
     #This is to make sure we keep seperate hosts
     dev_url = 'http://www.way2automation.com/angularjs-protractor/banking/#/login'
